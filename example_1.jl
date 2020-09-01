@@ -1,5 +1,5 @@
-for type given <: AbstractVector{T}
+for abstract type AbstractVector{T}
 where T
-  length(given) -> Int
-  index(given, Int) -> T
+  length(using) -> Int
+  index(using, Int) -> T
 end
